@@ -35,4 +35,8 @@ public class DummyEngine implements GameEngine {
         TURNS.incrementAndGet();
         return "Player x is doing something";
     }
+    
+    public void updatedScore(Integer playerId){
+        
+    }
 }
