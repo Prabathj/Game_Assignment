@@ -5,6 +5,7 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  workflow_dispatch:  #for test putposes allow a button to test workflow without occuring the event
 
 jobs:
   build: # this is just the name  of action it could be anything
